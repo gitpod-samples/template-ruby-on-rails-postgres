@@ -1,0 +1,2 @@
+module ForecastsHelper
+end

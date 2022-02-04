@@ -1,0 +1,6 @@
+<%= form_with url: "/forecasts/index", class: 'form-inline', method: :get do |form| %>
+  <div class="input-group mb-3">
+    <%= form.text_field :address, class: "form-control", placeholder: "One Apple Park Way, Cupertino, CA 95014", value: @address, "aria-describedby": "button-addon2" %>
+    <%= form.button :GO, class: "btn btn-outline-secondary", id: "button-addon2"%>
+  </div>
+<% end %>
