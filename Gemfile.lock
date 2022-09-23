@@ -232,7 +232,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.3, >= 6.1.3.2)
-  sass-rails (>= 6)
+  sass-rails (>= 3.2)
   selenium-webdriver
   spring
   sqlite3 (~> 1.4)
