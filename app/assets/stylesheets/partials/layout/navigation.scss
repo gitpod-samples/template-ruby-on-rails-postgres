@@ -13,6 +13,12 @@ nav {
     }
   }
 
+
+body {
+    margin-top: 60px;
+   }
+
+
 .navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
     background: $navbarColor !important;
     border: none;
