@@ -20,3 +20,8 @@ tasks:
 vscode:
   extensions:
     - rebornix.ruby
+
+jetbrains:
+  rubymine:
+    prebuilds:
+      version: both
