@@ -1,6 +1,6 @@
 # A Ruby on Rails with Postgres template on Gitpod
 
-This is a [Ruby on Rails with Postgres](https://rubyonrails.org) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a [Ruby on Rails with Postgres](https://rubyonrails.org) template configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
 
@@ -22,4 +22,4 @@ To get started with Ruby on Rails with Postgres on Gitpod, add a [`.gitpod.yml`]
 
 * The template was generated using `rails new . -d postgres`
 * [./gitpod.yml](./.gitpod.yml) launches the rails server bound to `0.0.0.0` so that the server is accessible in Gitpod. The default configuration binds to `localhost`.
-* [config/environments/development.rb](./config/environments/development.rb) has been configured with `config.hosts.clear` to enable requests to the Gitpod subdomain. In this template the Ruby on Rails configuration interface has been set to private. If this setting is changed to public then anyone will be able to connect to the administration interface if they know the workspace name.
+* [config/environments/development.rb](./config/environments/development.rb) has been configured with `config.hosts.clear` to enable requests to the Gitpod subdomain. In this template, the Ruby on Rails configuration interface has been set to private. If this setting is changed to the public then anyone will be able to connect to the administration interface if they know the workspace name.
