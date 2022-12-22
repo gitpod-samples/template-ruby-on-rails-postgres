@@ -10,11 +10,13 @@ ports:
     onOpen: ignore
 
 tasks:
-  - init: |
+  - name: Installing Dependencies
+    init: |
       bundle install &&
-      yarn install &&
-      rake db:create
+      yarn install
+  - name: create database & start server
     command: |
+      rake db:create
       rails server -b 0.0.0.0
 
 vscode:
