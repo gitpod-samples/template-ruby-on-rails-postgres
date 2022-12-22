@@ -14,7 +14,9 @@ tasks:
     init: |
       bundle install &&
       yarn install
+      gp sync-done installs
   - name: create database & start server
+    init: gp sync-await installs
     command: |
       rake db:create
       rails server -b 0.0.0.0
